@@ -3,10 +3,9 @@
 - Name - Sumit Kumar
 - Email - [s0k00singh@gmail.com](mailto:s0k00singh@gmail.com)
 
-## Simple Portfolio
+## Multi-Page Portfolio Website
 
-- This repo contains a simple Portfolio.
-- [components](src/components) contains the main code.
+- This repo contains a Multi-Page Portfolio Website.
 - Run:
 
 ```sh
