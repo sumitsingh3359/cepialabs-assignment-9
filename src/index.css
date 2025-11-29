@@ -66,3 +66,65 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* App layout utilities */
+.app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(0,0,0,0.02), transparent);
+  color: inherit;
+}
+
+nav.nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  align-items: center;
+  background: rgba(255,255,255,0.02);
+}
+
+.nav-link {
+  color: inherit;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+.nav-link:hover {
+  background: rgba(0,0,0,0.04);
+}
+.nav-link.active {
+  font-weight: 700;
+  color: #646cff;
+}
+
+main {
+  padding: 1.25rem;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  background: transparent;
+}
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.project-item {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(0,0,0,0.05);
+  margin-bottom: 0.75rem;
+  background: rgba(255,255,255,0.01);
+}
+
+footer {
+  padding: 1rem;
+  border-top: 1px solid rgba(0,0,0,0.04);
+}
+
